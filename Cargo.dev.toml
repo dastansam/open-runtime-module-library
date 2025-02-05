@@ -37,6 +37,10 @@ scale-info = { version = "2.10.0", default-features = false, features = ["derive
 serde = { version = "1.0.214" }
 parity-scale-codec = { version = "3.6.12", default-features = false, features = ["max-encoded-len"] }
 
+# Only needs this two
+orml-oracle = { path = "oracle", default-features = false }
+orml-traits = { path = "traits", default-features = false }
+
 cumulus-pallet-xcm = { version = "0.18.0", default-features = false }
 cumulus-primitives-core = { version = "0.17.0", default-features = false }
 frame-benchmarking = { version = "39.0.0", default-features = false }
